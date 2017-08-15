@@ -6,6 +6,7 @@ const getPublicEnv = R.pick([
   'PARSE_SERVER_APPLICATION_ID',
   'PARSE_SERVER_REST_API_KEY',
   'PARSE_SERVER_URL',
+  'LINE_API_CLIENT_ID',
 ]);
 
 export default getPublicEnv;
